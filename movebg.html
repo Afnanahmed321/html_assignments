@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes move{
+            20%{
+                background-image: url("/images/i1.jpg");
+            }
+            40%{
+                background-image: url("/images/i2.jpg");
+            }
+            60%{
+                background-image: url("/images/i3.jpg");
+            }
+            80%{
+                background-image: url("/images/i4.jpg");
+            }
+            100%{
+                background-image: url("/images/i1.jpg");
+            }
+        }
+        body{
+            background-image: url("images/i1.jpg");
+            background-repeat: no-repeat;
+            background-size: 1000px 800px;
+            animation-name: move;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
